@@ -1,4 +1,4 @@
-FROM ruby:2.3.1
+FROM ruby:2.7.6
 ENV APP_HOME /app/
 ENV LIB_DIR lib/warden/jwt_auth/
 RUN mkdir -p $APP_HOME/$LIB_DIR
