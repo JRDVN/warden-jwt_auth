@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'dry-configurable'
-  spec.add_dependency 'dry-auto_inject'
+  spec.add_dependency 'dry-configurable', "~> 0.15.0"
+  spec.add_dependency 'dry-auto_inject', "~> 0.9.0"
   spec.add_dependency 'jwt', '~> 2.1'
   spec.add_dependency 'warden', '~> 1.2'
 
